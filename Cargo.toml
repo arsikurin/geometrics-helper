@@ -1,0 +1,15 @@
+[package]
+name = "geometrics-helper"
+version = "0.1.0"
+edition = "2021"
+description = "Does awesome things"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.18", features = ["derive"] }
+confy = { version = "0.5.0"}
+reqwest = { version = "0.11.12", features = ["json"] }
+serde = { version = "1.0.147", features = ["derive"] }
+tokio = { version = "1.21.2", features = ["full"] }
+
